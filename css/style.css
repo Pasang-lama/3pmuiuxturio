@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #2D373C;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+header {
+  background-color: #121212;
+  color: white;
+  padding: 20px 50px;
+}
+header nav ul li {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+header nav ul li:hover {
+  color: #28BA7B;
+}
+header nav ul li:hover i {
+  transform: rotate(180deg);
+}
+header nav ul li i {
+  color: #28BA7B;
+  transition: all 0.6s ease-in-out;
+  margin-left: 5px;
+}/*# sourceMappingURL=style.css.map */
