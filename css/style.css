@@ -28,6 +28,21 @@ body {
   font-weight: 400;
 }
 
+.custom-btn {
+  border: 1px solid #28BA7B;
+  background-color: #28BA7B;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: all 0.4s linear;
+  display: inline-block;
+}
+.custom-btn:hover {
+  background-color: transparent;
+  color: #28BA7B;
+}
+
 header {
   background-color: #121212;
   color: white;
@@ -48,4 +63,49 @@ header nav ul li i {
   color: #28BA7B;
   transition: all 0.6s ease-in-out;
   margin-left: 5px;
+}
+header .right-content button {
+  background-color: transparent;
+  border: none;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s linear;
+}
+header .right-content button:hover {
+  background-color: #28BA7B;
+}
+
+.banner-section .banner-items {
+  position: relative;
+  background-color: black;
+}
+.banner-section .banner-items img {
+  opacity: 0.6;
+}
+.banner-section .banner-items .banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 60%;
+}
+.banner-section .banner-items .banner-content .tagline {
+  font-size: 20px;
+  font-weight: 500;
+}
+.banner-section .banner-items .banner-content .banner-heading {
+  font-family: "Barlow", serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 84px;
+}
+.banner-section .banner-items .banner-content .custom-btn {
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */

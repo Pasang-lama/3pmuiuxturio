@@ -1,0 +1,31 @@
+.banner-section{
+    .banner-items{
+        position: relative;
+        background-color: black;
+        img{
+            opacity: 0.6;
+        }
+        .banner-content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            width: 60%;
+            .tagline{
+                font-size:20px;
+                font-weight: 500;
+            }
+            .banner-heading{
+                font-family: $heading-font;
+                font-size: 70px;
+                font-weight: 700;
+                line-height: 84px;
+            }
+            .custom-btn{
+                margin-top: 20px;
+            }
+        }
+    }
+}

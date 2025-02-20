@@ -22,3 +22,18 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+
+.custom-btn{
+    border: 1px solid $primary-color;
+    background-color: $primary-color;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: all 0.4s linear;
+    display: inline-block;
+    &:hover{
+        background-color: transparent;
+        color: $primary-color;
+    }
+}
