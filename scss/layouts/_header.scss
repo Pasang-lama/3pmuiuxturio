@@ -1,7 +1,11 @@
 header{
-    background-color:#121212;
+    background-color:rgba(18, 18, 18, 0.553);
     color: white;
     padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
   nav{
     ul{
         li{
